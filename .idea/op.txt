@@ -1,0 +1,10 @@
+git remote add origin https://github.com/ruo96/experiment.git
+
+git push -u origin master
+
+git push --set-upstream origin master
+
+
+
+git rm -r --cached .
+然后再重新操作一遍
