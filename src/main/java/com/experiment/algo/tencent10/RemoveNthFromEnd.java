@@ -2,6 +2,7 @@ package com.experiment.algo.tencent10;
 
 import com.experiment.algo.tencent10.domain.ListNode;
 import org.junit.Test;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
  * @author wuruohong
@@ -33,6 +34,7 @@ public class RemoveNthFromEnd {
 System.out.println("===============分隔符===============");
         head = removeNth(head, 2);
         ListNode.printList(head);
+
 
 
     }
