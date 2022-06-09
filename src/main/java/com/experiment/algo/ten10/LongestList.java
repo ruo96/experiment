@@ -1,6 +1,6 @@
-package com.experiment.algo.tencent10;
+package com.experiment.algo.ten10;
 
-import com.experiment.algo.tencent10.domain.ArrayData;
+import com.experiment.algo.ten10.domain.ArrayData;
 import org.junit.Test;
 
 import java.util.Arrays;

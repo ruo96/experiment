@@ -1,4 +1,4 @@
-package com.experiment.algo.tencent10;
+package com.experiment.algo.ten10;
 
 /**
  * @author wuruohong

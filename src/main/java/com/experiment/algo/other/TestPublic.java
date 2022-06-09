@@ -1,6 +1,6 @@
 package com.experiment.algo.other;
 
-import com.experiment.algo.tencent10.LongestPalindrome;
+import com.experiment.algo.ten10.LongestPalindrome;
 import org.junit.Test;
 
 /**
@@ -24,6 +24,14 @@ public class TestPublic {
         System.out.println("a.s = " + a.s);
 //        System.out.println("a.s1 = " + a.s1);
 
+
+    }
+
+    @Test
+    public void Test31() {
+        int x = -1,  y =2;
+        int a = x^y;
+        System.out.println("a = " + a);
 
     }
 }

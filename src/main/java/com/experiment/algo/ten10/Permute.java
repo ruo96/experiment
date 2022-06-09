@@ -1,4 +1,4 @@
-package com.experiment.algo.tencent10;
+package com.experiment.algo.ten10;
 
 import org.junit.Test;
 
@@ -34,30 +34,21 @@ public class Permute {
 
         // 表示走到了叶子节点了， 所以可以加入全排列组合了
         if (nums.length == path.size()) {
-            System.out.println("final>>> path = " + path);
             allPath.add(new LinkedList<>(path));
             return;
         }
 
         for (int i = 0; i < nums.length; i++) {
-
-            System.out.println("begin i = " + i);
             // 这个是为了排查已经走过的路径
             if (path.contains(nums[i])) {
                 continue;
             }
             // 做选择，加入当前路径
             path.add(nums[i]);
-            System.out.println("before enter again add path = " + path);
             // 递归， 进入下一层决策
             backTrace(nums, path);
-            System.out.println("after enter again add path = " + path);
             // 取消选择
-            System.out.println("before remove  path = " + path);
             path.remove(path.size()-1);
-            System.out.println("after remove   path = " + path);
-            System.out.println("after i = " + i);
-            System.out.println("===============分隔符===============");
         }
     }
 }

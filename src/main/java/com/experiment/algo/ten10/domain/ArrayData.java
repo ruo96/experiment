@@ -1,4 +1,4 @@
-package com.experiment.algo.tencent10.domain;
+package com.experiment.algo.ten10.domain;
 
 /**
  * @author wuruohong
