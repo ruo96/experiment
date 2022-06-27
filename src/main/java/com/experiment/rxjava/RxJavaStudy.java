@@ -1,12 +1,12 @@
 package com.experiment.rxjava;
 
 
-import io.reactivex.Observable;
-import io.reactivex.ObservableEmitter;
-import io.reactivex.ObservableOnSubscribe;
-import io.reactivex.Observer;
-import io.reactivex.disposables.Disposable;
-import io.reactivex.functions.Consumer;
+//import io.reactivex.Observable;
+//import io.reactivex.ObservableEmitter;
+//import io.reactivex.ObservableOnSubscribe;
+//import io.reactivex.Observer;
+//import io.reactivex.disposables.Disposable;
+//import io.reactivex.functions.Consumer;
 import org.junit.Test;
 
 import java.util.concurrent.TimeUnit;
@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
  * @date 2022-06-16 10:39
  */
 public class RxJavaStudy {
-    public static void main1(String[] args) {
+    /*public static void main1(String[] args) {
         Observable<Integer> observable = Observable.create(new ObservableOnSubscribe<Integer>() {
 
             @Override
@@ -108,5 +108,5 @@ public class RxJavaStudy {
             }
         });
 
-    }
+    }*/
 }
